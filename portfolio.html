@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .innerpart{
+            width: 80%;
+            height: fit-content;
+            background-color: #d2e1ef;
+            padding: 20px 30px;
+        }
+
+        .innerpart>h1{
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .parts{
+            display: flex;
+        }
+        
+        .names{
+            display: flex;
+            justify-content: center;
+        }
+
+        .details{
+            margin: 20px auto; 
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            font-size: 15px;
+        }
+
+        .details img{
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+            box-shadow: none;
+        }
+
+        .mainpart{
+            font-family: 'Noto Sans', sans-serif;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .mainpart p{
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        .skills>ul{
+            flex-direction:column ;
+            list-style-type: disc;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="name">Hridoy.</li>
+            <li><a href="https://drive.usercontent.google.com/u/0/uc?id=1fbmLfwGhFIg4Ryh7AFZhOb4Djc14J8pp&export=download" download>
+                <button class="btn-2">Download CV</button>
+              </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" class="indicator">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="innerpart">
+            <h1>Ali Imam Hridoy</h1>
+            <section class="names">
+                <div class="details">
+                    <div class="parts"><img src="styles/resources/location.png" alt=""><h3>Dhaka, Bangladesh</h3></div>
+                    <div class="parts"><img src="styles/resources/mail.png" alt=""><h3>hridoy15-14667@diu.edu.bd</h3></div>
+                    <div class="parts"><img src="styles/resources/phn.png" alt=""><h3>+8801768590806</h3></div>
+                </div>
+            </section>
+
+            <div class="mainpart">
+                <section class="summary">
+                    <h1>Summary</h1>
+                    <hr>
+                    <p>
+                        I'm a frontend developer. I'm working with raw HTML, CSS, JavaScript 
+                        for a while now.
+                        I have created various projects with HTML, CSS, JavaScript, sometimes with frameworks like Tailwind, Bootstrap. Currently, I'm exploring advanced web development tools like React, Node.js.
+                        I have plans to master fullstack web development, so I'm learning accordingly to that roadmap.
+                        In the future, I'll try to gain knowledge about advanced web development tools & technologies.   
+                    </p>
+                </section>
+                <section class="projects">
+                    <h1>Projects</h1>
+                    <hr>
+                    <p>
+                        <h3><strong>Personal Portfolio:</strong></h3>
+                        A Personal portfolio made of raw HTML, CSS, JavaScript. 
+                        In this project, I focused on making a personal 
+                        portfolio using only raw HTML, CSS, and JavaScript.
+                        So for this project, I've used only the basics of web development.
+                        Here in one section, there's a landing page as the Home section. 
+                        Then there is an about section including my own personality, achievements, goals.
+                        There is another section called Services indicating the services I provide as a developer. 
+                        There is also my personal portfolio provided in the portfolio section. 
+                        There is also a section where my contact information is given.
+                        At last, I want to say this project is a project done with basic knowledge of raw HTML, CSS & JS.
+                        <br><br>
+                        <h3><strong>Myspace: A digital workspace Organizer</strong></h3>
+                        A digital workspace organizer made of raw HTML, CSS, JavaScript. 
+                        In this project, I've tried to develop using only raw HTML, CSS, and JavaScript.
+                        In this project, I've tried to make a digital space for everyone, where a person can schedule their work,
+                        manage their tasks, and note their tasks into the system. The system will remind the user about their pending tasks.
+                        There is a system where the user can log into their account directly from this site by clicking one button. 
+                    </p>
+                </section>
+                <section class="experience">
+                    <h1>Experience</h1>
+                    <hr>
+                    <p>
+                        <b>IT Specialist & WordPress Developer:</b>
+                        <br>
+                        Projonmodhoni Shishu-kishor Potrika, Dhaka.
+                        <br> 
+                        2016 - 2017  
+                    </p>
+                </section>
+                <section class="education">
+                    <h1>Education</h1>
+                    <hr>
+                    <p>
+                        <b>B.Sc in Computer Science & Engineering</b>
+                        <br>
+                        Daffodil International University, Ashulia, Savar.
+                        <br>
+                        2021-2024
+                        <br><br>
+                        <b>HSC in Science</b>
+                        <br>
+                        Dhaka City College.
+                        <br>
+                        2018 - 2020.
+                    </p>                    
+                </section>
+                <section class="skills">
+                    <h1>Skills</h1>
+                    <hr>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="content">
+            All rights reserved <p>&copy; 2022 Hridoy</p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+       
+        body{
+            padding: 0;
+            margin: 0;
+        } 
+        main{
+            flex: 1;
+            display: flex;
+            align-self: center;
+        }
+        .wrapper{
+            padding: 10px;
+            width: 50%;
+            height:50% ;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #e0a188;
+            box-shadow:10px 10px 20px #275e87;
+            transition: all 2s ease;
+        }
+
+
+        a{  
+            color: aliceblue;
+            font-family:'Noto Sans', sans-serif ;
+            text-decoration: none;
+            font-size: 20px;
+            
+        }
+        
+        .socials{
+            display: flex;
+           padding: 10px;
+           height: 50%;
+           width: 80%;
+           margin: auto;
+           padding: 40px 20px;
+         }
+         img:hover{
+           box-shadow: 4px 10px 10px #263540 ;
+            border-radius: 20px;
+            transition: all 1s;
+         }
+
+        img{box-shadow: none;
+            border-radius: 20px;
+            height: 100%;
+            width: 100%;
+            
+         }
+         .wrapper:hover{
+            box-shadow:30px 20px 50px #275e87;
+            
+         }
+       
+         .wrapper h2{
+            font-family:'Noto Sans', sans-serif ;
+            font-size: 30px;
+         }
+         @media screen {
+            @media (max-width: 600px) {
+                
+                .wrapper{
+                    height: auto;
+                    
+                }
+                a>img{
+                 height: 50%;
+                 width: 40%;
+                }
+                .socials{
+                flex-direction: column;
+                padding: 5px;
+                height: 60%;
+                width: 80%;
+                margin: auto;
+                padding: 40px 20px;
+                }      
+
+            }
+            
+    }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="name">Hridoy.</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html" class="indicator">Contact</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        
+        
+        <div class="wrapper">
+            <h2>I would love to hear from you...</h2> 
+            
+        <div class="socials">
+        <a target="_blank" href=""><img src="styles/resources/gh.png" alt=""></a>
+        <a target="_blank" href="https://www.linkedin.com/in/ali-imam-hridoy-544217271"><img src="styles/resources/in.png" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/aliimam.hridoy"><img src="styles/resources/fb.png" alt=""></a>
+        <a target="_blank" href=""><img src="styles/resources/gm.png" alt=""></a>
+        <a target="_blank" href=""><img src="styles/resources/wa.png" alt=""></a>
+</div>      
+        </div>
+  
+    </main>
+    <footer class="footer">
+        <div class="content">
+            All rights reserved <p>&copy; 2022 Hridoy</p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
